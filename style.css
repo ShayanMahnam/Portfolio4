@@ -193,6 +193,7 @@ nav ul li a:hover {
     justify-content: center;
     gap: 1rem;
     transition: all .5s ease-in-out;
+    padding-bottom: 1rem;
 }
 
 .project-wrapper:hover {
@@ -220,7 +221,7 @@ nav ul li a:hover {
 .project-wrapper p {
     overflow: scroll;
     text-align: justify;
-    padding: 0 1rem;
+    padding: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     border-radius: 8px;
