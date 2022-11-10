@@ -150,12 +150,12 @@ nav ul li a:hover {
 }
 
 .hero2 a {
-    color: var(--blue-purple);
+    color: var(--blue-dark);
     text-decoration: none;
 }
 
 .hero2 a:hover {
-    color: var(--blue-dark);
+    color: var(--blue-purple);
 }
 
 /* -----Projects----- */
@@ -245,9 +245,9 @@ footer {
     gap: 2rem;
 }
 
-.footer-left h4 {
+.footer-left a {
     text-decoration: none;
-    color: var(--purple);
+    color: var(--blue-dark);
     font-size: 18px;
 }
 
