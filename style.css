@@ -196,10 +196,17 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.project-wrapper h3 {
+
+.project-wrapper h3 a{
     font-size: 28px;
+    text-decoration: none;
     text-align: center;
     color: var(--blue-dark);
+    transition: all .3s ease-in-out;
+}
+
+.project-wrapper h3 a:hover {
+    color: var(--blue-purple);
 }
 
 .project-wrapper p {
