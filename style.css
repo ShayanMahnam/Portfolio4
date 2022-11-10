@@ -139,6 +139,7 @@ nav ul li a:hover {
     font-family: 'Montserrat', sans-serif;
     color: var(--blue-dark);
     font-size: 18px;   
+    text-align: center;
 }
 
 .hero2 a {
@@ -151,4 +152,61 @@ nav ul li a:hover {
 }
 
 /* -----Projects----- */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+.projects h2 {
+    color: var(--blue-dark);
+}
+.projects-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.project-wrapper {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: all .5s ease-in-out;
+    
+}
 
+.project-wrapper:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.project-wrapper a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.project-wrapper h3 {
+    font-size: 28px;
+    text-align: center;
+    color: var(--blue-dark);
+}
+
+.project-wrapper p {
+    overflow: scroll;
+    text-align: justify;
+    padding: 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-radius: 8px;
+}
